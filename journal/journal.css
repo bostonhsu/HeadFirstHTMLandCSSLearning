@@ -9,6 +9,11 @@ body {
     font-size: small;
 }
 
+h1, h2 {
+    color: #cc6600;
+    text-decoration: underline;
+}
+
 h1 {
     font-family: "Emblema One", sans-serif;
     font-size: 220%;
