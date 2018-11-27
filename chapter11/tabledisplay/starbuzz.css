@@ -67,3 +67,11 @@ div#tableContainer {
 div#tableRow {
   display: table-row;
 }
+
+div#drinks {
+  display: table-cell;
+  background-color: #efe5d0;
+  width: 20%;
+  padding: 15px;
+  vertical-align: top;
+}
