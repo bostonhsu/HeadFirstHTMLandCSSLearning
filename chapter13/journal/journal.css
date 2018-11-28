@@ -62,3 +62,8 @@ table table tr:nth-child(2n+1) {
 table table tr:nth-child(2n) {
   background-color: pink;
 }
+li {
+  list-style-image: url(images/backpack.gif);
+  padding-top: 5px;
+  margin-left: 20px;
+}
