@@ -33,6 +33,12 @@
         Must arrive by date: <input type="date" name="date">
       </p>
 
+      <p>
+        Extras: <br>
+        <input type="checkbox" name="extras[]" value="giftwrap">Gift wrap <br>
+        <input type="checkbox" name="extras[]" value="catalog" checked>Include catalog with other
+      </p>
+
       <p>Ship to: <br>
       Name: <input type="text" name="name"><br>
       Address: <input type="text" name="address"><br>
@@ -40,6 +46,10 @@
       State: <input type="text" name="state"><br>
       Zip: <input type="text" name="zip"><br>
       Phone: <input type="tel" name="phone">
+    </p>
+    <p>
+      Customer Comments: <br>
+      <textarea name="comments"></textarea>
     </p>
     <p>
       <input type="submit" value="Order Now">
